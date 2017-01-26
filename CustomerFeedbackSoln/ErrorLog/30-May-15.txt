@@ -1,0 +1,90 @@
+
+Log Entry : 
+05/30/2015 11:26:49
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationID' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/30/2015 11:30:25
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationID' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/30/2015 11:30:35
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationID' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/30/2015 11:32:24
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationID' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/30/2015 11:34:47
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationID' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/30/2015 11:34:49
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationID' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/30/2015 13:07:18
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Area' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/30/2015 13:08:06
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Area' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/30/2015 13:08:11
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Area' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/30/2015 13:10:20
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Area' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/30/2015 13:17:11
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Region_287E6C591FB25B0E705988F8212D8D8CF976CBC7D4B1BFCC4A97266BC2AF7F89' does not contain a property with the name 'OrgID'.
+__________________________
+
+Log Entry : 
+05/30/2015 13:17:43
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Region_287E6C591FB25B0E705988F8212D8D8CF976CBC7D4B1BFCC4A97266BC2AF7F89' does not contain a property with the name 'OrgID'.
+__________________________
+
+Log Entry : 
+05/30/2015 13:17:44
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Region_287E6C591FB25B0E705988F8212D8D8CF976CBC7D4B1BFCC4A97266BC2AF7F89' does not contain a property with the name 'OrgID'.
+__________________________
+
+Log Entry : 
+05/30/2015 13:19:03
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Region_287E6C591FB25B0E705988F8212D8D8CF976CBC7D4B1BFCC4A97266BC2AF7F89' does not contain a property with the name 'OrgID'.
+__________________________
+
+Log Entry : 
+05/30/2015 13:19:05
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Region_287E6C591FB25B0E705988F8212D8D8CF976CBC7D4B1BFCC4A97266BC2AF7F89' does not contain a property with the name 'OrgID'.
+__________________________
+
+Log Entry : 
+05/30/2015 14:37:18
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+__________________________
+
+Log Entry : 
+05/30/2015 14:37:29
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+__________________________
+
+Log Entry : 
+05/30/2015 15:12:04
+Error in: http://localhost:12538/BackOffice/ManageBranch.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Area_879AC4B3725479C7267D5BB3C18F9DB7840EFAF02FAAACC7289F230741D2440C' does not contain a property with the name 'RegionID'.
+__________________________

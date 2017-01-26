@@ -1,0 +1,30 @@
+
+Log Entry : 
+12/17/2014 12:34:17
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: The specified type member 'Date' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+__________________________
+
+Log Entry : 
+12/17/2014 12:34:32
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: The specified type member 'Date' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+__________________________
+
+Log Entry : 
+12/17/2014 12:54:24
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: The specified type member 'Date' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+__________________________
+
+Log Entry : 
+12/17/2014 12:54:50
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: The specified type member 'Date' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+__________________________
+
+Log Entry : 
+12/17/2014 13:06:28
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: LINQ to Entities does not recognize the method 'System.DateTime AddTicks(Int64)' method, and this method cannot be translated into a store expression.
+__________________________
+
+Log Entry : 
+12/17/2014 13:11:55
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: LINQ to Entities does not recognize the method 'System.DateTime AddDays(Double)' method, and this method cannot be translated into a store expression.
+__________________________

@@ -1,0 +1,20 @@
+
+Log Entry : 
+11/15/2015 21:33:28
+Error in: http://localhost:12538/BackOffice/ManageEventElement.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/15/2015 22:07:50
+Error in: http://localhost:12538/BackOffice/ManageEventElement.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/15/2015 22:16:14
+Error in: http://localhost:12538/BackOffice/ManageEventElement.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/15/2015 22:26:49
+Error in: http://localhost:12538/BackOffice/ManageEventElement.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________

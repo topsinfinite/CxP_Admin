@@ -1,0 +1,45 @@
+
+Log Entry : 
+05/20/2015 14:54:14
+Error in: http://localhost:12538/api/custfeedback/postFeedback. Error Message:Error: An error occurred while updating the entries. See the inner exception for details.Inner Exception   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() Detail The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Feedback_Service". The conflict occurred in database "CustomerFeedBackDB", table "dbo.Service", column 'ID'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/20/2015 14:56:34
+Error in: http://localhost:12538/api/custfeedback/postFeedback. Error Message:Error: An error occurred while updating the entries. See the inner exception for details.Inner Exception   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() Detail The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Feedback_Service". The conflict occurred in database "CustomerFeedBackDB", table "dbo.Service", column 'ID'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/20/2015 14:58:45
+Error in: http://localhost:12538/api/custfeedback/postFeedback. Error Message:Error: An error occurred while updating the entries. See the inner exception for details.Inner Exception   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() Detail The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Feedback_Service". The conflict occurred in database "CustomerFeedBackDB", table "dbo.Service", column 'ID'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/20/2015 15:00:12
+Error in: http://localhost:12538/api/custfeedback/postFeedback. Error Message:Error: An error occurred while updating the entries. See the inner exception for details.Inner Exception   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() Detail The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Feedback_Service". The conflict occurred in database "CustomerFeedBackDB", table "dbo.Service", column 'ID'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/20/2015 15:01:52
+Error in: http://localhost:12538/api/custfeedback/postFeedback. Error Message:Error: An error occurred while updating the entries. See the inner exception for details.Inner Exception   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() Detail The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Feedback_Service". The conflict occurred in database "CustomerFeedBackDB", table "dbo.Service", column 'ID'.
+The statement has been terminated.
+__________________________

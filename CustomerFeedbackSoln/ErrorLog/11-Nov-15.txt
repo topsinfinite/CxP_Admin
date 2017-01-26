@@ -1,0 +1,20 @@
+
+Log Entry : 
+11/11/2015 08:08:12
+Error in: http://localhost:12538/BackOffice/ManageEventHome.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/11/2015 21:08:05
+Error in: http://localhost:12538/BackOffice/Analystic.aspx. Error Message:Error: Ambiguous column name 'Comment'.
+__________________________
+
+Log Entry : 
+11/11/2015 21:09:39
+Error in: http://localhost:12538/BackOffice/Analystic.aspx. Error Message:Error: Ambiguous column name 'Comment'.
+__________________________
+
+Log Entry : 
+11/11/2015 21:11:28
+Error in: http://localhost:12538/BackOffice/Analystic.aspx. Error Message:Error: Ambiguous column name 'Comment'.
+__________________________

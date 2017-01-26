@@ -1,0 +1,10 @@
+
+Log Entry : 
+06/03/2015 13:52:23
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/03/2015 18:18:09
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________

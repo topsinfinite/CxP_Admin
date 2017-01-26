@@ -1,0 +1,30 @@
+
+Log Entry : 
+11/13/2015 09:30:26
+Error in: http://localhost:12538/BackOffice/ManageEventHome.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/13/2015 19:15:19
+Error in: http://localhost:12538/BackOffice/ManageEventElement.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/13/2015 19:16:53
+Error in: http://localhost:12538/BackOffice/ManageEventElement.aspx. Error Message:Error: Sequence contains more than one element
+__________________________
+
+Log Entry : 
+11/13/2015 19:27:25
+Error in: http://localhost:12538/BackOffice/ManageEventElement.aspx. Error Message:Error: Sequence contains more than one element
+__________________________
+
+Log Entry : 
+11/13/2015 19:44:52
+Error in: http://localhost:12538/BackOffice/ManageEventElement.aspx. Error Message:Error: Sequence contains more than one element
+__________________________
+
+Log Entry : 
+11/13/2015 19:57:28
+Error in: http://localhost:12538/BackOffice/ManageEventElement.aspx. Error Message:Error: Sequence contains more than one element
+__________________________

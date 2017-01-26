@@ -1,0 +1,32 @@
+
+Log Entry : 
+05/18/2015 09:39:43
+Error in: http://localhost:12538/BackOffice/ManageDevice.aspx. Error Message:Error: Property accessor 'Branch' on object 'System.Data.Entity.DynamicProxies.DeviceTbl_D62CEAF3EB5AD94C871FB1742796D26C7FBF880175F9CF2310992893D8336C56' threw the following exception:'The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.'
+__________________________
+
+Log Entry : 
+05/18/2015 09:43:28
+Error in: http://localhost:12538/BackOffice/ManageDevice.aspx. Error Message:Error: Property accessor 'Branch' on object 'System.Data.Entity.DynamicProxies.DeviceTbl_D62CEAF3EB5AD94C871FB1742796D26C7FBF880175F9CF2310992893D8336C56' threw the following exception:'The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.'
+__________________________
+
+Log Entry : 
+05/18/2015 09:44:08
+Error in: http://localhost:12538/BackOffice/ManageDevice.aspx. Error Message:Error: Property accessor 'Branch' on object 'System.Data.Entity.DynamicProxies.DeviceTbl_D62CEAF3EB5AD94C871FB1742796D26C7FBF880175F9CF2310992893D8336C56' threw the following exception:'The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.'
+__________________________
+
+Log Entry : 
+05/18/2015 13:56:51
+Error in: http://localhost:12538/Default.aspx. Error Message:Error: Value cannot be null.
+Parameter name: value
+__________________________
+
+Log Entry : 
+05/18/2015 13:58:20
+Error in: http://localhost:12538/Default.aspx. Error Message:Error: Value cannot be null.
+Parameter name: value
+__________________________
+
+Log Entry : 
+05/18/2015 14:38:11
+Error in: http://localhost:12538/Default.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________

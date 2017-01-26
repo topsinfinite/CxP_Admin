@@ -1,0 +1,40 @@
+
+Log Entry : 
+05/23/2015 16:54:53
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Category_1B6942C0277CB7498989E5C4842048F56BFA0786AEF9F498A80A732AD448822B' does not contain a property with the name 'SmileyType'.
+__________________________
+
+Log Entry : 
+05/23/2015 16:56:22
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Category_1B6942C0277CB7498989E5C4842048F56BFA0786AEF9F498A80A732AD448822B' does not contain a property with the name 'SmileyType'.
+__________________________
+
+Log Entry : 
+05/23/2015 17:17:37
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Service_4C81F935DD07A4BA79B32E725195626193D964F4879C67226B58A51057B16A3D' does not contain a property with the name 'ServiceIcon'.
+__________________________
+
+Log Entry : 
+05/23/2015 17:18:16
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Service_4C81F935DD07A4BA79B32E725195626193D964F4879C67226B58A51057B16A3D' does not contain a property with the name 'ServiceIcon'.
+__________________________
+
+Log Entry : 
+05/23/2015 17:24:57
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Service_4C81F935DD07A4BA79B32E725195626193D964F4879C67226B58A51057B16A3D' does not contain a property with the name 'ServiceIcon'.
+__________________________
+
+Log Entry : 
+05/23/2015 17:24:57
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Service_4C81F935DD07A4BA79B32E725195626193D964F4879C67226B58A51057B16A3D' does not contain a property with the name 'ServiceIcon'.
+__________________________
+
+Log Entry : 
+05/23/2015 17:25:21
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Service_4C81F935DD07A4BA79B32E725195626193D964F4879C67226B58A51057B16A3D' does not contain a property with the name 'ServiceIcon'.
+__________________________
+
+Log Entry : 
+05/23/2015 17:26:13
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Service_4C81F935DD07A4BA79B32E725195626193D964F4879C67226B58A51057B16A3D' does not contain a property with the name 'ServiceIcon'.
+__________________________

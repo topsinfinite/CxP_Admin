@@ -1,0 +1,18 @@
+
+Log Entry : 
+06/25/2015 17:17:32
+Error in: http://localhost:12538/Login.aspx. Error Message:Error: Cannot open database "CustomerFeedBackDB" requested by the login. The login failed.
+Login failed for user 'useradmin'.
+__________________________
+
+Log Entry : 
+06/25/2015 17:19:21
+Error in: http://localhost:12538/Login.aspx. Error Message:Error: Cannot open database "CustomerFeedBackDB" requested by the login. The login failed.
+Login failed for user 'useradmin'.
+__________________________
+
+Log Entry : 
+06/25/2015 17:20:36
+Error in: http://localhost:12538/Login.aspx. Error Message:Error: Cannot open database "CustomerFeedBackDB" requested by the login. The login failed.
+Login failed for user 'useradmin'.
+__________________________

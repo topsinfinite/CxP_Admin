@@ -1,0 +1,181 @@
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.pdb
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\EntityFramework.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\Microsoft.Web.Infrastructure.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\System.Web.Providers.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\EntityFramework.xml
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.xml
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.xml
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.xml
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.xml
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.dll
+c:\users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.pdb
+C:\Users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\AjaxControlToolkit.dll
+C:\Users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\RdlCompile.cache
+C:\Users\130288\documents\visual studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\RdlCompile.compiled
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.csprojResolveAssemblyReference.cache
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.pdb
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\EntityFramework.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\System.Web.Providers.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\EntityFramework.xml
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.xml
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.csprojResolveAssemblyReference.cache
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\RdlCompile.cache
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\RdlCompile.compiled
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.dll
+C:\Users\130288\Documents\Personal\PP\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.pdb
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.pdb
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\EntityFramework.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\System.Web.Providers.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\EntityFramework.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.csprojResolveAssemblyReference.cache
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\RdlCompile.cache
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\RdlCompile.compiled
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\SourceCodes\CustomerFeedbackSoln\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.pdb
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.pdb
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\EntityFramework.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Newtonsoft.Json.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Net.Http.Formatting.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.WebHost.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Providers.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Newtonsoft.Json.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Net.Http.Formatting.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.WebHost.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\EntityFramework.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\RdlCompile.cache
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\RdlCompile.compiled
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.dll
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.pdb
+C:\Users\130288\Documents\TopePlace\PP_SourceCode\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.csprojResolveAssemblyReference.cache
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.pdb
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\EntityFramework.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Newtonsoft.Json.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Net.Http.Formatting.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.WebHost.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Providers.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Newtonsoft.Json.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Net.Http.Formatting.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.WebHost.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\EntityFramework.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.csprojResolveAssemblyReference.cache
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\RdlCompile.cache
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\RdlCompile.compiled
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.dll
+C:\Users\130288\Documents\Visual Studio 2012\Projects\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.pdb
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\CustomerFeedbackSoln.pdb
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\EntityFramework.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Newtonsoft.Json.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Net.Http.Formatting.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.WebHost.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Providers.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\Newtonsoft.Json.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Net.Http.Formatting.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\System.Web.Http.WebHost.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\EntityFramework.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.Core.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\RdlCompile.cache
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\RdlCompile.compiled
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.dll
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.pdb
+C:\Users\Temitope\Documents\Tope\code\currentCXP_production_90815\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln_APIExtented\CustomerFeedbackSoln\obj\Debug\CustomerFeedbackSoln.csprojResolveAssemblyReference.cache

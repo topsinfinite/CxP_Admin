@@ -1,0 +1,10 @@
+
+Log Entry : 
+11/25/2014 11:15:46
+Error in: http://localhost:12538/Default.aspx. Error Message:Error: Conflicting changes to the role 'Customer' of the relationship 'CustomerFeedBackDBModel.FK_Feedback_Customer' have been detected.
+__________________________
+
+Log Entry : 
+11/25/2014 12:31:03
+Error in: http://localhost:12538/Default.aspx. Error Message:Error: Conflicting changes to the role 'Customer' of the relationship 'CustomerFeedBackDBModel.FK_Feedback_Customer' have been detected.
+__________________________

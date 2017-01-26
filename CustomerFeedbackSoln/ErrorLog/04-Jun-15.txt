@@ -1,0 +1,27 @@
+
+Log Entry : 
+06/04/2015 05:18:40
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: 'ddlRegion' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+__________________________
+
+Log Entry : 
+06/04/2015 05:21:39
+Error in: http://localhost:12538/BackOffice/ManageArea.aspx. Error Message:Error: 'ddlRegion' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+__________________________
+
+Log Entry : 
+06/04/2015 08:32:25
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/04/2015 08:33:50
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/04/2015 10:11:20
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________

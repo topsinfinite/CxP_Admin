@@ -1,0 +1,80 @@
+
+Log Entry : 
+05/29/2015 14:11:43
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationName' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/29/2015 14:14:21
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationName' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/29/2015 14:16:01
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationName' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/29/2015 14:17:32
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: The specified type member 'OrganistionaName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+__________________________
+
+Log Entry : 
+05/29/2015 14:17:43
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: The specified type member 'OrganistionaName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+__________________________
+
+Log Entry : 
+05/29/2015 14:22:11
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationName' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/29/2015 15:12:58
+Error in: http://localhost:12538/BackOffice/ManageRegion.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Region' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/29/2015 15:13:05
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Region' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/29/2015 15:13:09
+Error in: http://localhost:12538/BackOffice/ManageRegion.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Region' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/29/2015 15:14:59
+Error in: http://localhost:12538/BackOffice/ManageRegion.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Region' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/29/2015 15:19:50
+Error in: http://localhost:12538/BackOffice/ManageRegion.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Region' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/29/2015 15:19:58
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Region' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/29/2015 15:20:27
+Error in: http://localhost:12538/BackOffice/ManageRegion.aspx. Error Message:Error: A specified Include path is not valid. The EntityType 'CustomerFeedBackDBModel.Region' does not declare a navigation property with the name 'Organisation'.
+__________________________
+
+Log Entry : 
+05/29/2015 20:48:16
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationID' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+05/29/2015 20:48:58
+Error in: http://localhost:12538/BackOffice/ManageRegion.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.Region_287E6C591FB25B0E705988F8212D8D8CF976CBC7D4B1BFCC4A97266BC2AF7F89' does not contain a property with the name 'OrgID'.
+__________________________
+
+Log Entry : 
+05/29/2015 21:10:30
+Error in: http://localhost:12538/BackOffice/OrgSetup.aspx. Error Message:Error: A field or property with the name 'OrganisationID' was not found on the selected data source.
+__________________________

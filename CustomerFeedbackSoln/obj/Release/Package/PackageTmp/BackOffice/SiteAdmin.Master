@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteAdmin.master.cs" Inherits="CustomerFeedbackSoln.BackOffice.SiteAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head runat="server">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<meta charset="utf-8"/>
+		<title>Customer Xperience Platform</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		<link href="../css/bootstrap.min.css" rel="stylesheet"/>
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="../css/styles.css" rel="stylesheet"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <asp:ScriptManager ID="ScriptManager1" runat="server">
+       <%-- <Scripts>
+            <asp:ScriptReference Name="jquery" />
+            <asp:ScriptReference Name="jquery.ui.combined" />
+        </Scripts>--%>
+    </asp:ScriptManager>
+     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand"> <a href="#"><img id="Img1" src="~/Images/logo_md.png" runat="server" align="left" class="applogo"  />  </a><span>Customer eXperience Platform</span></div>
+        </div>
+         
+        <div class="navbar-collapse collapse"> <asp:LoginView ID="LoginView1" runat="server">
+          <LoggedInTemplate>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="name"><asp:Label ID="lbFName" runat="server" Text=""/></li><li class="name">|</li>
+            <li class="name"><asp:Label ID="lnBranch" runat="server" Text=""/></li><li class="name">|</li>
+            <li class="name"><asp:Label ID="lbRole" runat="server" Text=""/></li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Setting <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Change Password</a></li>
+                <li class="divider"></li>
+                <li><a href="#"> <asp:LoginStatus ID="LoginStatus1" LoginText="Log Out" runat="server" OnLoggedOut="LoginStatus1_LoggedOut" /></a></li>
+              </ul>
+            </li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <%--<div class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </div>--%>
+          </LoggedInTemplate>
+         </asp:LoginView>
+        </div>
+      </div>
+</nav>
+        <div class="container-fluid contain-admin">
+      
+      <div class="row row-offcanvas row-offcanvas-left">
+        
+         <div class="col-sm-3 col-md-2 sidebar-offcanvas" id="sidebar" role="navigation">
+           
+            <ul class="nav nav-sidebar">
+              <li class="active"><a href="#">Overview</a></li>
+              <li><a href="Dashboard.aspx">Reports</a></li>
+              <li><a href="Analystic.aspx">Analytics</a></li>
+            <%-- <li><a href="OnlineUsers.aspx">Check Active Terminals</a></li>--%>
+            </ul>
+             <ul class="nav nav-sidebar">
+              <li class="active"><a href="#">Settings</a></li>
+              <li><a href="ChangePassword.aspx">Change Password</a></li>
+                 <li class="divider"></li>
+              <li><asp:LoginStatus ID="LoginStatus1" LoginText="Log Out" runat="server" OnLoggedOut="LoginStatus1_LoggedOut" /></li>
+             <%-- <li><a href="#">Analytics</a></li>
+              <li><a href="#">Export</a></li>--%>
+            </ul>
+            <ul class="nav nav-sidebar" runat="server" id="dvAdminSetup" visible="false">
+              <li class="active"><a href="#">Admin Setup</a></li>
+              <li><a href="OrgSetup.aspx">Manage Organisation</a></li>
+              <li><a href="ManageBranch.aspx">Manage Branch</a></li>
+              <li><a href="ManageArea.aspx">Manage Area</a></li>
+              <li><a href="ManageRegion.aspx">Manage Region</a></li>
+              <li><a href="UserSetup.aspx">Manage Users</a></li>
+              <li><a href="ManageDevice.aspx">Manage Device</a></li>
+              <li><a href="ManageGalleryIcon.aspx">Manage Gallery Icons</a></li>
+            </ul>
+              <ul class="nav nav-sidebar" runat="server" id="dvEvents" visible="true">
+              <li class="active"><a href="#"> Event LookUp forms</a></li>
+              <li><a href="ManageEventHome.aspx">Manage Event Home</a></li>
+              <li><a href="ManageEvent.aspx">Manage Event</a></li>
+              <li><a href="ManageEventElement.aspx">Manage Event Element</a></li>
+              <li><a href="ManageEventDevice.aspx">Manage Event Device</a></li>
+              <li><a href="ManageEventMetrics.aspx">Manage Event Metrics</a></li>
+              
+  
+               <%-- <li><a href="ManageSmiley.aspx">Manage Smiley</a></li>--%>
+            </ul>
+            <ul class="nav nav-sidebar" runat="server" id="dvLookup" visible="false">
+              <li class="active"><a href="#">Look Up forms</a></li>
+              <li><a href="ManageCategory.aspx">Feedback Category</a></li>
+              <li><a href="ManageService.aspx">Manage Services</a></li>
+              <li><a href="ManageSmiley.aspx">Manage Smiley</a></li>
+              <li><a href="ManageLabels.aspx">Manage Labels</a></li>
+            </ul>
+          
+        </div><!--/span-->
+        
+        <div class="col-sm-9 col-md-10 main content">
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+         </asp:ContentPlaceHolder>
+      </div><!--/row-->
+	</div>
+</div><!--/.container-->
+
+<footer>
+  <p class="pull-right">©2015 Customer Feedback Solutions</p>
+</footer>
+        
+	
+   
+    </form>
+    <!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+
+Log Entry : 
+05/31/2015 09:56:09
+Error in: http://localhost:12538/BackOffice/ManageDevice.aspx. Error Message:Error: Data binding directly to a store query (DbSet, DbQuery, DbSqlQuery) is not supported. Instead populate a DbSet with data, for example by calling Load on the DbSet, and then bind to local data. For WPF bind to DbSet.Local. For WinForms bind to DbSet.Local.ToBindingList().
+__________________________
+
+Log Entry : 
+05/31/2015 09:58:57
+Error in: http://localhost:12538/BackOffice/ManageDevice.aspx. Error Message:Error: Data binding directly to a store query (DbSet, DbQuery, DbSqlQuery) is not supported. Instead populate a DbSet with data, for example by calling Load on the DbSet, and then bind to local data. For WPF bind to DbSet.Local. For WinForms bind to DbSet.Local.ToBindingList().
+__________________________
+
+Log Entry : 
+05/31/2015 10:00:07
+Error in: http://localhost:12538/BackOffice/ManageDevice.aspx. Error Message:Error: Data binding directly to a store query (DbSet, DbQuery, DbSqlQuery) is not supported. Instead populate a DbSet with data, for example by calling Load on the DbSet, and then bind to local data. For WPF bind to DbSet.Local. For WinForms bind to DbSet.Local.ToBindingList().
+__________________________
+
+Log Entry : 
+05/31/2015 10:01:02
+Error in: http://localhost:12538/BackOffice/ManageDevice.aspx. Error Message:Error: Data binding directly to a store query (DbSet, DbQuery, DbSqlQuery) is not supported. Instead populate a DbSet with data, for example by calling Load on the DbSet, and then bind to local data. For WPF bind to DbSet.Local. For WinForms bind to DbSet.Local.ToBindingList().
+__________________________
+
+Log Entry : 
+05/31/2015 10:02:35
+Error in: http://localhost:12538/BackOffice/ManageDevice.aspx. Error Message:Error: Data binding directly to a store query (DbSet, DbQuery, DbSqlQuery) is not supported. Instead populate a DbSet with data, for example by calling Load on the DbSet, and then bind to local data. For WPF bind to DbSet.Local. For WinForms bind to DbSet.Local.ToBindingList().
+__________________________
+
+Log Entry : 
+05/31/2015 10:14:51
+Error in: http://localhost:12538/BackOffice/ManageDevice.aspx. Error Message:Error: Input string was not in a correct format.
+__________________________
+
+Log Entry : 
+05/31/2015 11:18:56
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/31/2015 11:21:16
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/31/2015 11:23:24
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Property accessor 'Organisation' on object 'System.Data.Entity.DynamicProxies.Category_D9CDA75D1F0A3B23013EF8C0488F1D065B9A4C9CCE83504EC6703444D36E738D' threw the following exception:'The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.'
+__________________________
+
+Log Entry : 
+05/31/2015 11:24:02
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Property accessor 'Organisation' on object 'System.Data.Entity.DynamicProxies.Category_D9CDA75D1F0A3B23013EF8C0488F1D065B9A4C9CCE83504EC6703444D36E738D' threw the following exception:'The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.'
+__________________________
+
+Log Entry : 
+05/31/2015 11:24:44
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Property accessor 'Organisation' on object 'System.Data.Entity.DynamicProxies.Category_D9CDA75D1F0A3B23013EF8C0488F1D065B9A4C9CCE83504EC6703444D36E738D' threw the following exception:'The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.'
+__________________________
+
+Log Entry : 
+05/31/2015 11:28:32
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/31/2015 11:29:09
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Property accessor 'Organisation' on object 'System.Data.Entity.DynamicProxies.Category_D9CDA75D1F0A3B23013EF8C0488F1D065B9A4C9CCE83504EC6703444D36E738D' threw the following exception:'The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.'
+__________________________
+
+Log Entry : 
+05/31/2015 11:30:39
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/31/2015 15:46:30
+Error in: http://localhost:12538/BackOffice/ManageSmiley.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/31/2015 15:52:44
+Error in: http://localhost:12538/BackOffice/ManageSmiley.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/31/2015 16:05:23
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/31/2015 16:40:55
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/31/2015 16:53:31
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________

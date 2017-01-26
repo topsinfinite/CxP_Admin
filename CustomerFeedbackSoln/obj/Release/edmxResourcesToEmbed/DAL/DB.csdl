@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CustomerFeedBackDBModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="FeedBackDBEntities" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+    <EntitySet Name="AppUsers" EntityType="CustomerFeedBackDBModel.AppUser" />
+    <EntitySet Name="Areas" EntityType="CustomerFeedBackDBModel.Area" />
+    <EntitySet Name="Branches" EntityType="CustomerFeedBackDBModel.Branch" />
+    <EntitySet Name="Categories" EntityType="CustomerFeedBackDBModel.Category" />
+    <EntitySet Name="Feedbacks" EntityType="CustomerFeedBackDBModel.Feedback" />
+    <EntitySet Name="Services" EntityType="CustomerFeedBackDBModel.Service" />
+    <AssociationSet Name="FK_Feedback_Branch" Association="CustomerFeedBackDBModel.FK_Feedback_Branch">
+      <End Role="Branch" EntitySet="Branches" />
+      <End Role="Feedback" EntitySet="Feedbacks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Feedback_Category" Association="CustomerFeedBackDBModel.FK_Feedback_Category">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Feedback" EntitySet="Feedbacks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Feedback_Service" Association="CustomerFeedBackDBModel.FK_Feedback_Service">
+      <End Role="Service" EntitySet="Services" />
+      <End Role="Feedback" EntitySet="Feedbacks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AppUser_Branch" Association="CustomerFeedBackDBModel.FK_AppUser_Branch">
+      <End Role="Branch" EntitySet="Branches" />
+      <End Role="AppUser" EntitySet="AppUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Branch_Area" Association="CustomerFeedBackDBModel.FK_Branch_Area">
+      <End Role="Area" EntitySet="Areas" />
+      <End Role="Branch" EntitySet="Branches" />
+    </AssociationSet>
+    <EntitySet Name="Customers" EntityType="CustomerFeedBackDBModel.Customer" />
+    <AssociationSet Name="FK_Feedback_Customer" Association="CustomerFeedBackDBModel.FK_Feedback_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Feedback" EntitySet="Feedbacks" />
+    </AssociationSet>
+    <EntitySet Name="DeviceTbls" EntityType="CustomerFeedBackDBModel.DeviceTbl" />
+    <AssociationSet Name="FK_DeviceTbl_AppUser" Association="CustomerFeedBackDBModel.FK_DeviceTbl_AppUser">
+      <End Role="AppUser" EntitySet="AppUsers" />
+      <End Role="DeviceTbl" EntitySet="DeviceTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DeviceTbl_Branch" Association="CustomerFeedBackDBModel.FK_DeviceTbl_Branch">
+      <End Role="Branch" EntitySet="Branches" />
+      <End Role="DeviceTbl" EntitySet="DeviceTbls" />
+    </AssociationSet>
+    <EntitySet Name="States" EntityType="CustomerFeedBackDBModel.State" />
+    <EntitySet Name="Organisations" EntityType="CustomerFeedBackDBModel.Organisation" />
+    <EntitySet Name="Regions" EntityType="CustomerFeedBackDBModel.Region" />
+    <AssociationSet Name="FK_Organisation_AppUser" Association="CustomerFeedBackDBModel.FK_Organisation_AppUser">
+      <End Role="AppUser" EntitySet="AppUsers" />
+      <End Role="Organisation" EntitySet="Organisations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Area_Region" Association="CustomerFeedBackDBModel.FK_Area_Region">
+      <End Role="Region" EntitySet="Regions" />
+      <End Role="Area" EntitySet="Areas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Organisation_State" Association="CustomerFeedBackDBModel.FK_Organisation_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="Organisation" EntitySet="Organisations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Region_Organisation" Association="CustomerFeedBackDBModel.FK_Region_Organisation">
+      <End Role="Organisation" EntitySet="Organisations" />
+      <End Role="Region" EntitySet="Regions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Category_Organisation" Association="CustomerFeedBackDBModel.FK_Category_Organisation">
+      <End Role="Organisation" EntitySet="Organisations" />
+      <End Role="Category" EntitySet="Categories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Service_Service" Association="CustomerFeedBackDBModel.FK_Service_Service">
+      <End Role="Organisation" EntitySet="Organisations" />
+      <End Role="Service" EntitySet="Services" />
+    </AssociationSet>
+    <EntitySet Name="SmileyActions" EntityType="CustomerFeedBackDBModel.SmileyAction" />
+    <AssociationSet Name="FK_Feedback_SmileyAction" Association="CustomerFeedBackDBModel.FK_Feedback_SmileyAction">
+      <End Role="SmileyAction" EntitySet="SmileyActions" />
+      <End Role="Feedback" EntitySet="Feedbacks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SmileyAction_Organisation" Association="CustomerFeedBackDBModel.FK_SmileyAction_Organisation">
+      <End Role="Organisation" EntitySet="Organisations" />
+      <End Role="SmileyAction" EntitySet="SmileyActions" />
+    </AssociationSet>
+    <EntitySet Name="IconGalleries" EntityType="CustomerFeedBackDBModel.IconGallery" />
+    <EntitySet Name="LabelSettings" EntityType="CustomerFeedBackDBModel.LabelSetting" />
+    <AssociationSet Name="FK_LabelSetting_Organisation" Association="CustomerFeedBackDBModel.FK_LabelSetting_Organisation">
+      <End Role="Organisation" EntitySet="Organisations" />
+      <End Role="LabelSetting" EntitySet="LabelSettings" />
+    </AssociationSet>
+    <EntitySet Name="Events" EntityType="CustomerFeedBackDBModel.Event" />
+    <EntitySet Name="EventFeedbacks" EntityType="CustomerFeedBackDBModel.EventFeedback" />
+    <EntitySet Name="EventMetrics" EntityType="CustomerFeedBackDBModel.EventMetric" />
+    <AssociationSet Name="FK_EventFeedback_Customer" Association="CustomerFeedBackDBModel.FK_EventFeedback_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="EventFeedback" EntitySet="EventFeedbacks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Event_Organisation" Association="CustomerFeedBackDBModel.FK_Event_Organisation">
+      <End Role="Organisation" EntitySet="Organisations" />
+      <End Role="Event" EntitySet="Events" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventFeedback_Event" Association="CustomerFeedBackDBModel.FK_EventFeedback_Event">
+      <End Role="Event" EntitySet="Events" />
+      <End Role="EventFeedback" EntitySet="EventFeedbacks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventMetric_Event" Association="CustomerFeedBackDBModel.FK_EventMetric_Event">
+      <End Role="Event" EntitySet="Events" />
+      <End Role="EventMetric" EntitySet="EventMetrics" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventFeedback_EventFeedback" Association="CustomerFeedBackDBModel.FK_EventFeedback_EventFeedback">
+      <End Role="EventMetric" EntitySet="EventMetrics" />
+      <End Role="EventFeedback" EntitySet="EventFeedbacks" />
+    </AssociationSet>
+    <EntitySet Name="HomeSettings" EntityType="CustomerFeedBackDBModel.HomeSetting" />
+    <AssociationSet Name="FK_HomeSetting_Event" Association="CustomerFeedBackDBModel.FK_HomeSetting_Event">
+      <End Role="Event" EntitySet="Events" />
+      <End Role="HomeSetting" EntitySet="HomeSettings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HomeSetting_Organisation" Association="CustomerFeedBackDBModel.FK_HomeSetting_Organisation">
+      <End Role="Organisation" EntitySet="Organisations" />
+      <End Role="HomeSetting" EntitySet="HomeSettings" />
+    </AssociationSet>
+    <EntitySet Name="MetricElements" EntityType="CustomerFeedBackDBModel.MetricElement" />
+    <AssociationSet Name="FK_MetricElement_Event" Association="CustomerFeedBackDBModel.FK_MetricElement_Event">
+      <End Role="Event" EntitySet="Events" />
+      <End Role="MetricElement" EntitySet="MetricElements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventFeedback_MetricElement" Association="CustomerFeedBackDBModel.FK_EventFeedback_MetricElement">
+      <End Role="MetricElement" EntitySet="MetricElements" />
+      <End Role="EventFeedback" EntitySet="EventFeedbacks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MetricElement_EventMetric" Association="CustomerFeedBackDBModel.FK_MetricElement_EventMetric">
+      <End Role="EventMetric" EntitySet="EventMetrics" />
+      <End Role="MetricElement" EntitySet="MetricElements" />
+    </AssociationSet>
+    <EntitySet Name="EventDevices" EntityType="CustomerFeedBackDBModel.EventDevice" />
+    <AssociationSet Name="FK_EventDevice_DeviceTbl" Association="CustomerFeedBackDBModel.FK_EventDevice_DeviceTbl">
+      <End Role="DeviceTbl" EntitySet="DeviceTbls" />
+      <End Role="EventDevice" EntitySet="EventDevices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventDevice_Event" Association="CustomerFeedBackDBModel.FK_EventDevice_Event">
+      <End Role="Event" EntitySet="Events" />
+      <End Role="EventDevice" EntitySet="EventDevices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventDevice_Organisation" Association="CustomerFeedBackDBModel.FK_EventDevice_Organisation">
+      <End Role="Organisation" EntitySet="Organisations" />
+      <End Role="EventDevice" EntitySet="EventDevices" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AppUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="FullName" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="BranchID" Type="Int32" />
+    <Property Name="RoleName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="DateAdded" Type="DateTime" Precision="3" />
+    <Property Name="AddedBy" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Branch" Relationship="CustomerFeedBackDBModel.FK_AppUser_Branch" FromRole="AppUser" ToRole="Branch" />
+    <Property Type="String" Name="Email" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="IsActive" />
+    <Property Type="String" Name="UserName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ModifiedBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="LastModified" Precision="3" />
+    <Property Type="Boolean" Name="HasChangePwd" />
+    <NavigationProperty Name="DeviceTbls" Relationship="CustomerFeedBackDBModel.FK_DeviceTbl_AppUser" FromRole="AppUser" ToRole="DeviceTbl" />
+    <NavigationProperty Name="Organisations" Relationship="CustomerFeedBackDBModel.FK_Organisation_AppUser" FromRole="AppUser" ToRole="Organisation" />
+  </EntityType>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Name" Type="String" MaxLength="400" Unicode="false" FixedLength="false" />
+    <Property Name="RegionalID" Type="Int32" />
+    <Property Name="isActive" Type="Boolean" />
+    <NavigationProperty Name="Branches" Relationship="CustomerFeedBackDBModel.FK_Branch_Area" FromRole="Area" ToRole="Branch" />
+    <NavigationProperty Name="Region" Relationship="CustomerFeedBackDBModel.FK_Area_Region" FromRole="Area" ToRole="Region" />
+  </EntityType>
+  <EntityType Name="Branch">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Name" Type="String" MaxLength="400" Unicode="false" FixedLength="false" />
+    <Property Name="AreaID" Type="Int32" />
+    <Property Name="isActive" Type="Boolean" />
+    <NavigationProperty Name="Feedbacks" Relationship="CustomerFeedBackDBModel.FK_Feedback_Branch" FromRole="Branch" ToRole="Feedback" />
+    <NavigationProperty Name="AppUsers" Relationship="CustomerFeedBackDBModel.FK_AppUser_Branch" FromRole="Branch" ToRole="AppUser" />
+    <NavigationProperty Name="Area" Relationship="CustomerFeedBackDBModel.FK_Branch_Area" FromRole="Branch" ToRole="Area" />
+    <Property Type="String" Name="Code" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DeviceTbls" Relationship="CustomerFeedBackDBModel.FK_DeviceTbl_Branch" FromRole="Branch" ToRole="DeviceTbl" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Name" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+    <Property Name="isActive" Type="Boolean" />
+    <NavigationProperty Name="Feedbacks" Relationship="CustomerFeedBackDBModel.FK_Feedback_Category" FromRole="Category" ToRole="Feedback" />
+    <Property Type="Int32" Name="CategoryType" />
+    <Property Type="Int32" Name="OrganisationId" />
+    <NavigationProperty Name="Organisation" Relationship="CustomerFeedBackDBModel.FK_Category_Organisation" FromRole="Category" ToRole="Organisation" />
+    <Property Type="String" Name="CategoryIcon" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AddedBy" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DatedAdded" Precision="3" />
+    <Property Type="String" Name="ModifiedBy" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateModified" Precision="3" />
+  </EntityType>
+  <EntityType Name="Feedback">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="DateAdded" Type="DateTime" Precision="3" />
+    <Property Name="SmileyActionID" Type="Int32" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="BranchID" Type="Int32" />
+    <Property Name="ServiceID" Type="Int32" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="Comment" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Branch" Relationship="CustomerFeedBackDBModel.FK_Feedback_Branch" FromRole="Feedback" ToRole="Branch" />
+    <NavigationProperty Name="Category" Relationship="CustomerFeedBackDBModel.FK_Feedback_Category" FromRole="Feedback" ToRole="Category" />
+    <NavigationProperty Name="Service" Relationship="CustomerFeedBackDBModel.FK_Feedback_Service" FromRole="Feedback" ToRole="Service" />
+    <NavigationProperty Name="Customer" Relationship="CustomerFeedBackDBModel.FK_Feedback_Customer" FromRole="Feedback" ToRole="Customer" />
+    <NavigationProperty Name="SmileyAction" Relationship="CustomerFeedBackDBModel.FK_Feedback_SmileyAction" FromRole="Feedback" ToRole="SmileyAction" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Name" Type="String" MaxLength="400" Unicode="false" FixedLength="false" />
+    <Property Name="isActive" Type="Boolean" />
+    <NavigationProperty Name="Feedbacks" Relationship="CustomerFeedBackDBModel.FK_Feedback_Service" FromRole="Service" ToRole="Feedback" />
+    <Property Type="String" Name="ServiceIcon" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="OrganisationId" />
+    <NavigationProperty Name="Organisation" Relationship="CustomerFeedBackDBModel.FK_Service_Service" FromRole="Service" ToRole="Organisation" />
+    <Property Type="Int32" Name="ServiceCatId" />
+    <Property Type="String" Name="AddedBy" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DatedAdded" Precision="3" />
+    <Property Type="String" Name="ModifiedBy" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateModified" Precision="3" />
+  </EntityType>
+  <Association Name="FK_Feedback_Branch">
+    <End Role="Branch" Type="CustomerFeedBackDBModel.Branch" Multiplicity="0..1" />
+    <End Role="Feedback" Type="CustomerFeedBackDBModel.Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Branch">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="BranchID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Feedback_Category">
+    <End Role="Category" Type="CustomerFeedBackDBModel.Category" Multiplicity="0..1" />
+    <End Role="Feedback" Type="CustomerFeedBackDBModel.Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Feedback_Service">
+    <End Role="Service" Type="CustomerFeedBackDBModel.Service" Multiplicity="0..1" />
+    <End Role="Feedback" Type="CustomerFeedBackDBModel.Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="ServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AppUser_Branch">
+    <End Type="CustomerFeedBackDBModel.Branch" Role="Branch" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.AppUser" Role="AppUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Branch">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AppUser">
+        <PropertyRef Name="BranchID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Branch_Area">
+    <End Type="CustomerFeedBackDBModel.Area" Role="Area" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.Branch" Role="Branch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Branch">
+        <PropertyRef Name="AreaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="CustomerName" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AccountNumber" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MobileNo" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Gender" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Feedbacks" Relationship="CustomerFeedBackDBModel.FK_Feedback_Customer" FromRole="Customer" ToRole="Feedback" />
+    <NavigationProperty Name="EventFeedbacks" Relationship="CustomerFeedBackDBModel.FK_EventFeedback_Customer" FromRole="Customer" ToRole="EventFeedback" />
+    <Property Type="Int32" Name="EventID" />
+    <Property Type="String" Name="Comment" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FeedBackVal" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateCreated" Precision="3" />
+  </EntityType>
+  <Association Name="FK_Feedback_Customer">
+    <End Type="CustomerFeedBackDBModel.Customer" Role="Customer" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.Feedback" Role="Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="DeviceTbl">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="DeviceID" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="BranchID" />
+    <Property Type="Int32" Name="UserAssigned" />
+    <Property Type="DateTime" Name="DateAdded" Precision="3" />
+    <Property Type="Boolean" Name="isActive" />
+    <NavigationProperty Name="AppUser" Relationship="CustomerFeedBackDBModel.FK_DeviceTbl_AppUser" FromRole="DeviceTbl" ToRole="AppUser" />
+    <NavigationProperty Name="Branch" Relationship="CustomerFeedBackDBModel.FK_DeviceTbl_Branch" FromRole="DeviceTbl" ToRole="Branch" />
+    <NavigationProperty Name="EventDevices" Relationship="CustomerFeedBackDBModel.FK_EventDevice_DeviceTbl" FromRole="DeviceTbl" ToRole="EventDevice" />
+  </EntityType>
+  <Association Name="FK_DeviceTbl_AppUser">
+    <End Type="CustomerFeedBackDBModel.AppUser" Role="AppUser" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.DeviceTbl" Role="DeviceTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AppUser">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DeviceTbl">
+        <PropertyRef Name="UserAssigned" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DeviceTbl_Branch">
+    <End Type="CustomerFeedBackDBModel.Branch" Role="Branch" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.DeviceTbl" Role="DeviceTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Branch">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DeviceTbl">
+        <PropertyRef Name="BranchID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="Name" MaxLength="400" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Organisations" Relationship="CustomerFeedBackDBModel.FK_Organisation_State" FromRole="State" ToRole="Organisation" />
+  </EntityType>
+  <EntityType Name="Organisation">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="OrgID" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OrganisationName" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactEmail" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactMobileNo" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactPhoneNo" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Address" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="City" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="StateID" />
+    <Property Type="String" Name="Logo" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Background" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateAdded" Precision="3" />
+    <Property Type="Int32" Name="AddedBy" />
+    <Property Type="Boolean" Name="isActive" />
+    <NavigationProperty Name="AppUser" Relationship="CustomerFeedBackDBModel.FK_Organisation_AppUser" FromRole="Organisation" ToRole="AppUser" />
+    <NavigationProperty Name="State" Relationship="CustomerFeedBackDBModel.FK_Organisation_State" FromRole="Organisation" ToRole="State" />
+    <NavigationProperty Name="Regions" Relationship="CustomerFeedBackDBModel.FK_Region_Organisation" FromRole="Organisation" ToRole="Region" />
+    <NavigationProperty Name="Categories" Relationship="CustomerFeedBackDBModel.FK_Category_Organisation" FromRole="Organisation" ToRole="Category" />
+    <NavigationProperty Name="Services" Relationship="CustomerFeedBackDBModel.FK_Service_Service" FromRole="Organisation" ToRole="Service" />
+    <NavigationProperty Name="SmileyActions" Relationship="CustomerFeedBackDBModel.FK_SmileyAction_Organisation" FromRole="Organisation" ToRole="SmileyAction" />
+    <Property Type="String" Name="HomeLabel" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="AccountBalance" Precision="18" Scale="2" />
+    <NavigationProperty Name="LabelSettings" Relationship="CustomerFeedBackDBModel.FK_LabelSetting_Organisation" FromRole="Organisation" ToRole="LabelSetting" />
+    <NavigationProperty Name="Events" Relationship="CustomerFeedBackDBModel.FK_Event_Organisation" FromRole="Organisation" ToRole="Event" />
+    <NavigationProperty Name="HomeSettings" Relationship="CustomerFeedBackDBModel.FK_HomeSetting_Organisation" FromRole="Organisation" ToRole="HomeSetting" />
+    <NavigationProperty Name="EventDevices" Relationship="CustomerFeedBackDBModel.FK_EventDevice_Organisation" FromRole="Organisation" ToRole="EventDevice" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="Name" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="OrganisationID" />
+    <Property Type="Boolean" Name="isActive" />
+    <NavigationProperty Name="Areas" Relationship="CustomerFeedBackDBModel.FK_Area_Region" FromRole="Region" ToRole="Area" />
+    <NavigationProperty Name="Organisation" Relationship="CustomerFeedBackDBModel.FK_Region_Organisation" FromRole="Region" ToRole="Organisation" />
+  </EntityType>
+  <Association Name="FK_Organisation_AppUser">
+    <End Type="CustomerFeedBackDBModel.AppUser" Role="AppUser" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.Organisation" Role="Organisation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AppUser">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Organisation">
+        <PropertyRef Name="AddedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Area_Region">
+    <End Type="CustomerFeedBackDBModel.Region" Role="Region" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.Area" Role="Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Area">
+        <PropertyRef Name="RegionalID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Organisation_State">
+    <End Type="CustomerFeedBackDBModel.State" Role="State" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.Organisation" Role="Organisation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Organisation">
+        <PropertyRef Name="StateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Region_Organisation">
+    <End Type="CustomerFeedBackDBModel.Organisation" Role="Organisation" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.Region" Role="Region" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organisation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Region">
+        <PropertyRef Name="OrganisationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Category_Organisation">
+    <End Type="CustomerFeedBackDBModel.Organisation" Role="Organisation" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.Category" Role="Category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organisation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Category">
+        <PropertyRef Name="OrganisationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Service_Service">
+    <End Type="CustomerFeedBackDBModel.Organisation" Role="Organisation" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.Service" Role="Service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organisation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Service">
+        <PropertyRef Name="OrganisationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="SmileyAction">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="Name" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SmileyImage" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="SmileyType" />
+    <Property Type="Int32" Name="OrganisationId" />
+    <Property Type="Boolean" Name="isActive" />
+    <Property Type="String" Name="AddedBy" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DatedAdded" Precision="3" />
+    <Property Type="String" Name="ModifiedBy" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateModified" Precision="3" />
+    <NavigationProperty Name="Feedbacks" Relationship="CustomerFeedBackDBModel.FK_Feedback_SmileyAction" FromRole="SmileyAction" ToRole="Feedback" />
+    <NavigationProperty Name="Organisation" Relationship="CustomerFeedBackDBModel.FK_SmileyAction_Organisation" FromRole="SmileyAction" ToRole="Organisation" />
+  </EntityType>
+  <Association Name="FK_Feedback_SmileyAction">
+    <End Type="CustomerFeedBackDBModel.SmileyAction" Role="SmileyAction" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.Feedback" Role="Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SmileyAction">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="SmileyActionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SmileyAction_Organisation">
+    <End Type="CustomerFeedBackDBModel.Organisation" Role="Organisation" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.SmileyAction" Role="SmileyAction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organisation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SmileyAction">
+        <PropertyRef Name="OrganisationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="IconGallery">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="Name" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Type" />
+    <Property Type="Boolean" Name="isActive" />
+  </EntityType>
+  <EntityType Name="LabelSetting">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="OrgId" />
+    <Property Type="String" Name="HomeLabel" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CategoryLabelAwesome" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CategoryLabelBad" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceLabelAwesome" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceLabelBad" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ServiceLabelIndifferent" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="StaffLabelAwesome" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="StaffLabelBad" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Organisation" Relationship="CustomerFeedBackDBModel.FK_LabelSetting_Organisation" FromRole="LabelSetting" ToRole="Organisation" />
+  </EntityType>
+  <Association Name="FK_LabelSetting_Organisation">
+    <End Type="CustomerFeedBackDBModel.Organisation" Role="Organisation" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.LabelSetting" Role="LabelSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organisation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="LabelSetting">
+        <PropertyRef Name="OrgId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Event">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="Title" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Note" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="isActive" />
+    <Property Type="Int32" Name="OrganisationID" />
+    <Property Type="DateTime" Name="DateAdded" Precision="3" />
+    <Property Type="String" Name="Question" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Organisation" Relationship="CustomerFeedBackDBModel.FK_Event_Organisation" FromRole="Event" ToRole="Organisation" />
+    <NavigationProperty Name="EventFeedbacks" Relationship="CustomerFeedBackDBModel.FK_EventFeedback_Event" FromRole="Event" ToRole="EventFeedback" />
+    <NavigationProperty Name="EventMetrics" Relationship="CustomerFeedBackDBModel.FK_EventMetric_Event" FromRole="Event" ToRole="EventMetric" />
+    <NavigationProperty Name="HomeSettings" Relationship="CustomerFeedBackDBModel.FK_HomeSetting_Event" FromRole="Event" ToRole="HomeSetting" />
+    <NavigationProperty Name="MetricElements" Relationship="CustomerFeedBackDBModel.FK_MetricElement_Event" FromRole="Event" ToRole="MetricElement" />
+    <NavigationProperty Name="EventDevices" Relationship="CustomerFeedBackDBModel.FK_EventDevice_Event" FromRole="Event" ToRole="EventDevice" />
+  </EntityType>
+  <EntityType Name="EventFeedback">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="EventID" />
+    <Property Type="Int32" Name="EventMetricID" />
+    <Property Type="Int32" Name="MetricElementtID" />
+    <Property Type="Int32" Name="Feedbackval" />
+    <Property Type="Int32" Name="CustomerID" />
+    <Property Type="DateTime" Name="DateAdded" Precision="3" />
+    <NavigationProperty Name="Customer" Relationship="CustomerFeedBackDBModel.FK_EventFeedback_Customer" FromRole="EventFeedback" ToRole="Customer" />
+    <NavigationProperty Name="Event" Relationship="CustomerFeedBackDBModel.FK_EventFeedback_Event" FromRole="EventFeedback" ToRole="Event" />
+    <NavigationProperty Name="EventMetric" Relationship="CustomerFeedBackDBModel.FK_EventFeedback_EventFeedback" FromRole="EventFeedback" ToRole="EventMetric" />
+    <NavigationProperty Name="MetricElement" Relationship="CustomerFeedBackDBModel.FK_EventFeedback_MetricElement" FromRole="EventFeedback" ToRole="MetricElement" />
+    <Property Type="String" Name="SmileyType" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SmileyID" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateCreated" Precision="3" />
+  </EntityType>
+  <EntityType Name="EventMetric">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="EventID" />
+    <Property Type="String" Name="Label" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Icon" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="isActive" />
+    <NavigationProperty Name="Event" Relationship="CustomerFeedBackDBModel.FK_EventMetric_Event" FromRole="EventMetric" ToRole="Event" />
+    <NavigationProperty Name="EventFeedbacks" Relationship="CustomerFeedBackDBModel.FK_EventFeedback_EventFeedback" FromRole="EventMetric" ToRole="EventFeedback" />
+    <NavigationProperty Name="MetricElements" Relationship="CustomerFeedBackDBModel.FK_MetricElement_EventMetric" FromRole="EventMetric" ToRole="MetricElement" />
+    <Property Type="String" Name="Title" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_EventFeedback_Customer">
+    <End Type="CustomerFeedBackDBModel.Customer" Role="Customer" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.EventFeedback" Role="EventFeedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EventFeedback">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Event_Organisation">
+    <End Type="CustomerFeedBackDBModel.Organisation" Role="Organisation" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.Event" Role="Event" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organisation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Event">
+        <PropertyRef Name="OrganisationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventFeedback_Event">
+    <End Type="CustomerFeedBackDBModel.Event" Role="Event" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.EventFeedback" Role="EventFeedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EventFeedback">
+        <PropertyRef Name="EventID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventMetric_Event">
+    <End Type="CustomerFeedBackDBModel.Event" Role="Event" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.EventMetric" Role="EventMetric" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EventMetric">
+        <PropertyRef Name="EventID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventFeedback_EventFeedback">
+    <End Type="CustomerFeedBackDBModel.EventMetric" Role="EventMetric" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.EventFeedback" Role="EventFeedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventMetric">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EventFeedback">
+        <PropertyRef Name="EventMetricID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="HomeSetting">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="EventID" />
+    <Property Type="String" Name="Title" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SmileyImage" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="SmileyType" />
+    <Property Type="String" Name="Label" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateAdded" Precision="3" />
+    <Property Type="Boolean" Name="isActive" />
+    <Property Type="Int32" Name="OrgID" />
+    <NavigationProperty Name="Event" Relationship="CustomerFeedBackDBModel.FK_HomeSetting_Event" FromRole="HomeSetting" ToRole="Event" />
+    <NavigationProperty Name="Organisation" Relationship="CustomerFeedBackDBModel.FK_HomeSetting_Organisation" FromRole="HomeSetting" ToRole="Organisation" />
+  </EntityType>
+  <Association Name="FK_HomeSetting_Event">
+    <End Type="CustomerFeedBackDBModel.Event" Role="Event" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.HomeSetting" Role="HomeSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="HomeSetting">
+        <PropertyRef Name="EventID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HomeSetting_Organisation">
+    <End Type="CustomerFeedBackDBModel.Organisation" Role="Organisation" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.HomeSetting" Role="HomeSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organisation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="HomeSetting">
+        <PropertyRef Name="OrgID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="MetricElement">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="EventMetricID" />
+    <Property Type="Int32" Name="EventID" />
+    <Property Type="String" Name="Title" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Icon" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Note" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateAdded" Precision="3" />
+    <NavigationProperty Name="Event" Relationship="CustomerFeedBackDBModel.FK_MetricElement_Event" FromRole="MetricElement" ToRole="Event" />
+    <NavigationProperty Name="EventFeedbacks" Relationship="CustomerFeedBackDBModel.FK_EventFeedback_MetricElement" FromRole="MetricElement" ToRole="EventFeedback" />
+    <NavigationProperty Name="EventMetric" Relationship="CustomerFeedBackDBModel.FK_MetricElement_EventMetric" FromRole="MetricElement" ToRole="EventMetric" />
+  </EntityType>
+  <Association Name="FK_MetricElement_Event">
+    <End Type="CustomerFeedBackDBModel.Event" Role="Event" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.MetricElement" Role="MetricElement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MetricElement">
+        <PropertyRef Name="EventID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventFeedback_MetricElement">
+    <End Type="CustomerFeedBackDBModel.MetricElement" Role="MetricElement" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.EventFeedback" Role="EventFeedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MetricElement">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EventFeedback">
+        <PropertyRef Name="MetricElementtID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MetricElement_EventMetric">
+    <End Type="CustomerFeedBackDBModel.EventMetric" Role="EventMetric" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.MetricElement" Role="MetricElement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventMetric">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MetricElement">
+        <PropertyRef Name="EventMetricID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="EventDevice">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="EventID" />
+    <Property Type="Int32" Name="DeviceID" />
+    <Property Type="DateTime" Name="DateAdded" Precision="3" />
+    <Property Type="Int32" Name="OrganizationID" />
+    <Property Type="Int32" Name="isActive" />
+    <NavigationProperty Name="DeviceTbl" Relationship="CustomerFeedBackDBModel.FK_EventDevice_DeviceTbl" FromRole="EventDevice" ToRole="DeviceTbl" />
+    <NavigationProperty Name="Event" Relationship="CustomerFeedBackDBModel.FK_EventDevice_Event" FromRole="EventDevice" ToRole="Event" />
+    <NavigationProperty Name="Organisation" Relationship="CustomerFeedBackDBModel.FK_EventDevice_Organisation" FromRole="EventDevice" ToRole="Organisation" />
+  </EntityType>
+  <Association Name="FK_EventDevice_DeviceTbl">
+    <End Type="CustomerFeedBackDBModel.DeviceTbl" Role="DeviceTbl" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.EventDevice" Role="EventDevice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DeviceTbl">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EventDevice">
+        <PropertyRef Name="DeviceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventDevice_Event">
+    <End Type="CustomerFeedBackDBModel.Event" Role="Event" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.EventDevice" Role="EventDevice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EventDevice">
+        <PropertyRef Name="EventID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventDevice_Organisation">
+    <End Type="CustomerFeedBackDBModel.Organisation" Role="Organisation" Multiplicity="0..1" />
+    <End Type="CustomerFeedBackDBModel.EventDevice" Role="EventDevice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organisation">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EventDevice">
+        <PropertyRef Name="OrganizationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

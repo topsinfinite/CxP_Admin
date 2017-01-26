@@ -1,0 +1,5 @@
+
+Log Entry : 
+11/20/2014 16:04:40
+Error in: http://localhost:12538/Default.aspx. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.SmileyAction_EC43C2A4C3CA37E52BAA84262EE2C13CBDFF2E05AB8C1FFB0B07EEBE36398CC1' does not contain a property with the name 'Upload/{0}'.
+__________________________

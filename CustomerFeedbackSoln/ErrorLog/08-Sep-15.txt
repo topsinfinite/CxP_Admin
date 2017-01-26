@@ -1,0 +1,6 @@
+
+Log Entry : 
+09/08/2015 23:14:45
+Error in: http://localhost:12538/BackOffice/UserSetup.aspx. Error Message:Error: 'ddlBranch' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+__________________________

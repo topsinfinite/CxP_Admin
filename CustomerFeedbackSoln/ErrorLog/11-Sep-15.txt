@@ -1,0 +1,45 @@
+
+Log Entry : 
+09/11/2015 09:25:18
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: An error occurred during local report processing.
+__________________________
+
+Log Entry : 
+09/11/2015 11:24:46
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: An error occurred during local report processing.
+__________________________
+
+Log Entry : 
+09/11/2015 11:25:27
+Error in: http://localhost:12538/BackOffice/Analystic.aspx. Error Message:Error: An error occurred during local report processing.
+__________________________
+
+Log Entry : 
+09/11/2015 11:25:45
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: An error occurred during local report processing.
+__________________________
+
+Log Entry : 
+09/11/2015 11:26:34
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: An error occurred during local report processing.
+__________________________
+
+Log Entry : 
+09/11/2015 11:26:37
+Error in: http://localhost:12538/BackOffice/Analystic.aspx. Error Message:Error: An error occurred during local report processing.
+__________________________
+
+Log Entry : 
+09/11/2015 11:26:38
+Error in: http://localhost:12538/BackOffice/Analystic.aspx. Error Message:Error: An error occurred during local report processing.
+__________________________
+
+Log Entry : 
+09/11/2015 11:28:59
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: An error occurred during local report processing.
+__________________________
+
+Log Entry : 
+09/11/2015 14:25:50
+Error in: http://localhost:12538/BackOffice/ManageLabels.aspx. Error Message:Error: 
+__________________________

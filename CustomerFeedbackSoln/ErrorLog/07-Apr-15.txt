@@ -1,0 +1,15 @@
+
+Log Entry : 
+04/07/2015 11:29:11
+Error in: http://localhost:12538/Login.aspx. Error Message:Error: Login failed for user 'UserAdmin'.
+__________________________
+
+Log Entry : 
+04/07/2015 11:29:37
+Error in: http://localhost:12538/Login.aspx. Error Message:Error: Login failed for user 'UserAdmin'.
+__________________________
+
+Log Entry : 
+04/07/2015 11:31:57
+Error in: http://localhost:12538/Login.aspx. Error Message:Error: Login failed for user 'UserAdmin'.
+__________________________

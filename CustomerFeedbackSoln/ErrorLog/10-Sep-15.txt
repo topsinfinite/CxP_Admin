@@ -1,0 +1,22 @@
+
+Log Entry : 
+09/10/2015 20:24:36
+Error in: http://localhost:12538/BackOffice/ManageLabels.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+09/10/2015 20:58:49
+Error in: http://localhost:12538/BackOffice/ManageLabels.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+09/10/2015 21:17:31
+Error in: http://localhost:12538/BackOffice/UserSetup.aspx. Error Message:Error: 'ddlBranch' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+__________________________
+
+Log Entry : 
+09/10/2015 21:28:09
+Error in: http://localhost:12538/BackOffice/UserSetup.aspx. Error Message:Error: 'ddlBranch' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+__________________________

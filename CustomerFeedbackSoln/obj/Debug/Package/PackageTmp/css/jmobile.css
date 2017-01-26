@@ -1,0 +1,23 @@
+﻿body {
+}
+.ui-content ul{
+    list-style:none;
+}
+
+.content-header {
+      /*background:#007AF0;*/
+    background:#668D1C;
+    padding:15px;
+    margin-top:-23px;
+    /*color: #550EF3;*/
+    color:#fff;
+    font-size:2.1em;
+    text-align:center;
+    text-transform:uppercase;
+    text-shadow:inherit;
+    font-family:Arial,sans-serif,Arial;
+     -moz-box-shadow:3px 3px 8px rgba(0,0,0,0.2);
+    -webkit-box-shadow:3px 3px 8px rgba(0,0,0,0.2);
+   
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+}

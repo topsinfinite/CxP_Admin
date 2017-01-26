@@ -1,0 +1,15 @@
+
+Log Entry : 
+12/18/2014 11:33:39
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: Input string was not in a correct format.
+__________________________
+
+Log Entry : 
+12/18/2014 11:35:53
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: Input string was not in a correct format.
+__________________________
+
+Log Entry : 
+12/18/2014 11:37:39
+Error in: http://localhost:12538/BackOffice/Dashboard.aspx. Error Message:Error: Input string was not in a correct format.
+__________________________

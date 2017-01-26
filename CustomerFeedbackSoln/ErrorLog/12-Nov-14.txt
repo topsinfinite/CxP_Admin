@@ -1,0 +1,15 @@
+
+Log Entry : 
+11/12/2014 08:56:58
+Error in: http://localhost:12538/BackOffice/ManageBranch.aspx. Error Message:Error: Nullable object must have a value.
+__________________________
+
+Log Entry : 
+11/12/2014 20:58:35
+Error in: http://localhost:12538/BackOffice/UserSetup.aspx. Error Message:Error: A field or property with the name 'UsrName' was not found on the selected data source.
+__________________________
+
+Log Entry : 
+11/12/2014 21:27:25
+Error in: http://localhost:12538/BackOffice/UserDetail.aspx?id=2. Error Message:Error: DataBinding: 'System.Data.Entity.DynamicProxies.AppUser_1BC4FB87BAFD61F4E3C45082E92040368AA561B17357D7CAFC2BD3E2F2B9B0A0' does not contain a property with the name 'DepartmentID'.
+__________________________

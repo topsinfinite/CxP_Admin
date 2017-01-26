@@ -1,0 +1,20 @@
+
+Log Entry : 
+11/21/2014 12:14:42
+Error in: http://localhost:12538/Default.aspx. Error Message:Error: A group placeholder must be specified on ListView 'lstService' when the GroupTemplate is defined. Specify a group placeholder by setting its ID property to "grpContainer". The group placeholder control must also specify runat="server".
+__________________________
+
+Log Entry : 
+11/21/2014 12:30:03
+Error in: http://localhost:12538/Default.aspx. Error Message:Error: A group placeholder must be specified on ListView 'lstService' when the GroupTemplate is defined. Specify a group placeholder by setting its ID property to "grpContainer". The group placeholder control must also specify runat="server".
+__________________________
+
+Log Entry : 
+11/21/2014 12:31:54
+Error in: http://localhost:12538/Default.aspx. Error Message:Error: A group placeholder must be specified on ListView 'lstService' when the GroupTemplate is defined. Specify a group placeholder by setting its ID property to "grpContainer". The group placeholder control must also specify runat="server".
+__________________________
+
+Log Entry : 
+11/21/2014 12:35:10
+Error in: http://localhost:12538/Default.aspx. Error Message:Error: A group placeholder must be specified on ListView 'lstService' when the GroupTemplate is defined. Specify a group placeholder by setting its ID property to "grpContainer". The group placeholder control must also specify runat="server".
+__________________________

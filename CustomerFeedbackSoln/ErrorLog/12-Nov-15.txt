@@ -1,0 +1,15 @@
+
+Log Entry : 
+11/12/2015 05:37:12
+Error in: http://localhost:12538/BackOffice/ManageEventMetrics.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/12/2015 05:56:44
+Error in: http://localhost:12538/BackOffice/ManageEventMetrics.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/12/2015 10:54:46
+Error in: http://localhost:12538/BackOffice/ManageEventMetrics.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________

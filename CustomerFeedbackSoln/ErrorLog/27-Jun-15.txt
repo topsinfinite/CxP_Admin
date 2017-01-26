@@ -1,0 +1,55 @@
+
+Log Entry : 
+06/27/2015 17:27:24
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/27/2015 17:45:16
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/27/2015 17:48:40
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/27/2015 17:55:17
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/27/2015 18:05:14
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/27/2015 18:08:26
+Error in: http://localhost:12538/BackOffice/ManageService.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/27/2015 18:19:21
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/27/2015 18:20:55
+Error in: http://localhost:12538/BackOffice/ManageCategory.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/27/2015 18:51:01
+Error in: http://localhost:12538/BackOffice/ManageSmiley.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/27/2015 18:52:28
+Error in: http://localhost:12538/BackOffice/ManageSmiley.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/27/2015 18:54:54
+Error in: http://localhost:12538/BackOffice/ManageSmiley.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________

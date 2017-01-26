@@ -1,0 +1,50 @@
+
+Log Entry : 
+11/10/2015 19:38:02
+Error in: http://localhost:12538/BackOffice/HomeSettings.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/10/2015 19:50:24
+Error in: http://localhost:12538/BackOffice/HomeSettings.aspx. Error Message:Error: An error occurred while updating the entries. See the inner exception for details.
+__________________________
+
+Log Entry : 
+11/10/2015 19:50:29
+Error in: http://localhost:12538/BackOffice/HomeSettings.aspx. Error Message:Error: An error occurred while updating the entries. See the inner exception for details.
+__________________________
+
+Log Entry : 
+11/10/2015 19:51:13
+Error in: http://localhost:12538/BackOffice/HomeSettings.aspx. Error Message:Error: An error occurred while updating the entries. See the inner exception for details.
+__________________________
+
+Log Entry : 
+11/10/2015 19:58:13
+Error in: http://localhost:12538/BackOffice/HomeSettings.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/10/2015 20:01:20
+Error in: http://localhost:12538/BackOffice/HomeSettings.aspx. Error Message:Error: An error occurred while updating the entries. See the inner exception for details.
+__________________________
+
+Log Entry : 
+11/10/2015 20:03:18
+Error in: http://localhost:12538/BackOffice/HomeSettings.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/10/2015 20:09:56
+Error in: http://localhost:12538/BackOffice/HomeSettings.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/10/2015 20:25:16
+Error in: http://localhost:12538/BackOffice/ManageEvent.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+11/10/2015 21:28:06
+Error in: http://localhost:12538/BackOffice/ManageEventElement.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________
