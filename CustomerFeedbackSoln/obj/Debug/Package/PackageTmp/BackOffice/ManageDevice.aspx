@@ -20,6 +20,7 @@
                 <strong>Success!</strong> Your message has been sent successfully.
             </div>
         </div>
+         <a href="ManageDevice.aspx">ManageDevice.aspx</a>
     </div>
      <div class="row">
         <div class="col-md-10">

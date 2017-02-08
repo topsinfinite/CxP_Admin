@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BackOffice/SiteAdmin.Master" AutoEventWireup="true" CodeBehind="ManageEvent.aspx.cs" Inherits="CustomerFeedbackSoln.BackOffice.ManageEvent" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 
@@ -32,27 +33,40 @@
                 </asp:DropDownList>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" InitialValue="" ForeColor="Maroon" ControlToValidate="ddlOrg" Display="Dynamic" Text="Required!"></asp:RequiredFieldValidator>
             </div>
+            <div class="form-group">
+                <label for="inputEmail">Event Code: <span>*</span></label><small> [Enter unique 7 alphanumeric code e.g (TESTCODE)] </small>
+                <asp:TextBox ID="txtEvtCode" runat="server" CssClass="form-control" ValidationGroup="evt"></asp:TextBox> 
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ForeColor="Maroon" ValidationGroup="evt" ControlToValidate="txtEvtCode" Display="Dynamic" Text="Required!"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ForeColor="Maroon" ValidationGroup="evt" ErrorMessage="Code does not match required specification" Text="Code does not match required specification" ControlToValidate="txtEvtCode" ValidationExpression="^[a-zA-Z0-9]{7,}$"></asp:RegularExpressionValidator>
+               <asp:Button ID="btnCheck" runat="server" CausesValidation="true" ValidationGroup="evt" Text="Validate Event Code" OnClick="btnCheck_Click" CssClass="btn btn-primary form-control"/>
+            </div>
            <div class="form-group">
-                <label for="inputEmail">Event Title <span>*</span></label>
+                <label for="inputEmail">Event Title: <span>*</span></label>
                 <asp:TextBox ID="txtTitle" runat="server" CssClass="form-control"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ForeColor="Maroon" ControlToValidate="txtTitle" Display="Dynamic" Text="Required!"></asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <label for="inputbranchname">Question:</label>
+                <label for="inputbranchname">Question:<span>*</span></label><small> [Smiley homepage question e.g (How was your overall experience at xyz event?)] </small>
                 <asp:TextBox ID="txtQuestion" runat="server" CssClass="form-control"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ForeColor="Maroon" ControlToValidate="txtTitle" Display="Dynamic" Text="Required!"></asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <label for="inputEmail">Note</label>
+                <label for="inputEmail">Note/Description:</label>
                 <asp:TextBox ID="txtNote" runat="server" CssClass="form-control" TextMode="MultiLine" Rows="2"></asp:TextBox>
                <%-- <asp:RequiredFieldValidator ID="RequiredFieldValidator15" runat="server" ForeColor="Maroon" ControlToValidate="txtcode" Display="Dynamic" Text="Required!"></asp:RequiredFieldValidator>--%>
             </div>
-            
+             <div class="form-group">
+                <label for="inputbranchname">Expiry Date: <span>*</span></label> <small> [kindly select the expiry date . After the expiry date users will not be able to submit feedback for this event] </small>
+                <asp:TextBox ID="txtValidDate" runat="server" CssClass="form-control"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ForeColor="Maroon" ControlToValidate="txtValidDate" Display="Dynamic" Text="Required!"></asp:RequiredFieldValidator>
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/cal.gif" />
+                <asp:CalendarExtender ID="CalendarExtender2" runat="server" PopupPosition="Right" Format="dd/MM/yyyy" TargetControlID="txtValidDate" PopupButtonID="Image2"></asp:CalendarExtender> 
+             </div>
             <div class="checkbox">
                 <label>
                     <asp:CheckBox ID="chk" runat="server" Text="Is Active" /></label>
             </div>
-            <asp:Button ID="btnSubmit" runat="server" Text="Add" CssClass="btn btn-primary" OnClick="btnSubmit_Click"/>
+            <asp:Button ID="btnSubmit" runat="server" Text="Add Event" CssClass="btn btn-primary" Enabled="false" OnClick="btnSubmit_Click"/>
             <%-- <button type="submit" class="btn btn-primary">Add</button>--%>
         </div>
     </div>
@@ -81,7 +95,8 @@
                         AutoGenerateColumns="false" CssClass="table table-striped" DataKeyNames="ID"
                         AllowPaging="true" PageIndex="0" PageSize="15" EmptyDataText="No Record Found" OnSelectedIndexChanged="gvDefault_SelectedIndexChanged" OnPageIndexChanging="gvDefault_PageIndexChanging">
                         <Columns>
-                            <asp:BoundField HeaderText="#" DataField="ID"  />
+                            <asp:BoundField HeaderText="#" DataField="ID" Visible="false"  />
+                            <asp:BoundField HeaderText="Event Code" DataField="Code" />
                             <asp:BoundField HeaderText="Title" DataField="Title" />
                              <asp:BoundField HeaderText="Question" DataField="Question" />
                               <asp:TemplateField HeaderText="Organisation">
@@ -90,7 +105,8 @@
                                      <asp:Label ID="Organisation" runat="server" Text='<%#Eval("Organisation.OrganisationName") %>'></asp:Label>
                                 </ItemTemplate>
                             </asp:TemplateField>
-                             <asp:BoundField HeaderText="Note" DataField="Note" />
+                             <asp:BoundField HeaderText="Note" DataField="Note" Visible="false" />
+                             <asp:BoundField HeaderText="Expiry Date " DataField="ValidTill" DataFormatString="{0:dd/MMM/yyyy}" />
                             <asp:TemplateField HeaderText="Status">
                                 <ItemTemplate>
                                      <asp:Label ID="lbEnable" runat="server" Text=' <%# (Eval("isActive") != null&&Boolean.Parse(Eval("isActive").ToString())) ? "Active" : "Inactive"%>' ForeColor="Maroon"></asp:Label>

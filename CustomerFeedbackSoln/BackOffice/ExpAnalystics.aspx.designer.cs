@@ -10,7 +10,7 @@
 namespace CustomerFeedbackSoln.BackOffice {
     
     
-    public partial class ManageEvent {
+    public partial class ExpAnalystics {
         
         /// <summary>
         /// error control.
@@ -22,13 +22,22 @@ namespace CustomerFeedbackSoln.BackOffice {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl error;
         
         /// <summary>
-        /// success control.
+        /// lbview control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl success;
+        protected global::System.Web.UI.WebControls.Label lbview;
+        
+        /// <summary>
+        /// dvOrg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dvOrg;
         
         /// <summary>
         /// ddlOrg control.
@@ -40,210 +49,147 @@ namespace CustomerFeedbackSoln.BackOffice {
         protected global::System.Web.UI.WebControls.DropDownList ddlOrg;
         
         /// <summary>
-        /// RequiredFieldValidator3 control.
+        /// dvEvent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dvEvent;
         
         /// <summary>
-        /// txtEvtCode control.
+        /// ddlEvent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEvtCode;
+        protected global::System.Web.UI.WebControls.DropDownList ddlEvent;
         
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// dvMetrics control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dvMetrics;
         
         /// <summary>
-        /// RegularExpressionValidator1 control.
+        /// ddlMetrics control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
+        protected global::System.Web.UI.WebControls.DropDownList ddlMetrics;
         
         /// <summary>
-        /// btnCheck control.
+        /// btnFilter control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCheck;
+        protected global::System.Web.UI.WebControls.Button btnFilter;
         
         /// <summary>
-        /// txtTitle control.
+        /// ReportViewer1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTitle;
+        protected global::Microsoft.Reporting.WebForms.ReportViewer ReportViewer1;
         
         /// <summary>
-        /// RequiredFieldValidator2 control.
+        /// ObjectDataSource2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSource2;
         
         /// <summary>
-        /// txtQuestion control.
+        /// ReportViewer2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtQuestion;
+        protected global::Microsoft.Reporting.WebForms.ReportViewer ReportViewer2;
         
         /// <summary>
-        /// RequiredFieldValidator4 control.
+        /// ObjectDataSource1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+        protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSource1;
         
         /// <summary>
-        /// txtNote control.
+        /// ReportViewer4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNote;
+        protected global::Microsoft.Reporting.WebForms.ReportViewer ReportViewer4;
         
         /// <summary>
-        /// txtValidDate control.
+        /// ObjectDataSource4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtValidDate;
+        protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSource4;
         
         /// <summary>
-        /// RequiredFieldValidator5 control.
+        /// ReportViewer5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
+        protected global::Microsoft.Reporting.WebForms.ReportViewer ReportViewer5;
         
         /// <summary>
-        /// Image2 control.
+        /// ObjectDataSource5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image2;
+        protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSource5;
         
         /// <summary>
-        /// CalendarExtender2 control.
+        /// ValidationSummary1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::AjaxControlToolkit.CalendarExtender CalendarExtender2;
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
         
         /// <summary>
-        /// chk control.
+        /// ReportViewer3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk;
+        protected global::Microsoft.Reporting.WebForms.ReportViewer ReportViewer3;
         
         /// <summary>
-        /// btnSubmit control.
+        /// ObjectDataSource3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
-        
-        /// <summary>
-        /// dvfilter control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dvfilter;
-        
-        /// <summary>
-        /// ddlEventfilter control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlEventfilter;
-        
-        /// <summary>
-        /// btnSearch control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSearch;
-        
-        /// <summary>
-        /// btnClr control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnClr;
-        
-        /// <summary>
-        /// hid control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField hid;
-        
-        /// <summary>
-        /// hidkey control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField hidkey;
-        
-        /// <summary>
-        /// gvDefault control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvDefault;
+        protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSource3;
     }
 }

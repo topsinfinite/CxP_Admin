@@ -235,6 +235,8 @@
           <Property Name="OrganisationID" Type="int" />
           <Property Name="DateAdded" Type="datetime" />
           <Property Name="Question" Type="varchar" MaxLength="500" />
+          <Property Name="Code" Type="varchar" MaxLength="20" />
+          <Property Name="ValidTill" Type="datetime" />
         </EntityType>
         <EntityType Name="EventDevice">
           <Key>
@@ -1350,6 +1352,8 @@
           <NavigationProperty Name="HomeSettings" Relationship="CustomerFeedBackDBModel.FK_HomeSetting_Event" FromRole="Event" ToRole="HomeSetting" />
           <NavigationProperty Name="MetricElements" Relationship="CustomerFeedBackDBModel.FK_MetricElement_Event" FromRole="Event" ToRole="MetricElement" />
           <NavigationProperty Name="EventDevices" Relationship="CustomerFeedBackDBModel.FK_EventDevice_Event" FromRole="Event" ToRole="EventDevice" />
+          <Property Type="String" Name="Code" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="ValidTill" Precision="3" />
         </EntityType>
         <EntityType Name="EventFeedback">
           <Key>
@@ -1789,6 +1793,8 @@
           <EntitySetMapping Name="Events">
             <EntityTypeMapping TypeName="CustomerFeedBackDBModel.Event">
               <MappingFragment StoreEntitySet="Event">
+                <ScalarProperty Name="ValidTill" ColumnName="ValidTill" />
+                <ScalarProperty Name="Code" ColumnName="Code" />
                 <ScalarProperty Name="Question" ColumnName="Question" />
                 <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
                 <ScalarProperty Name="OrganisationID" ColumnName="OrganisationID" />

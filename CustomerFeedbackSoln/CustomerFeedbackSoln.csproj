@@ -127,6 +127,7 @@
     <Content Include="BackOffice\ChangePassword.aspx" />
     <Content Include="BackOffice\Dashboard.aspx" />
     <Content Include="BackOffice\EmailTemplates\NewUserCreated.htm" />
+    <Content Include="BackOffice\ExpAnalystics.aspx" />
     <Content Include="BackOffice\ManageArea.aspx" />
     <Content Include="BackOffice\ManageBranch.aspx" />
     <Content Include="BackOffice\ManageCategory.aspx" />
@@ -393,7 +394,9 @@
     <Content Include="Upload\sad.jpg" />
     <Content Include="Upload\Sad_smiley.jpg" />
     <Content Include="Upload\smiley.jpg" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\AuthConfig.cs" />
@@ -422,6 +425,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dsFeedback.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BackOffice\ExpAnalystics.aspx.cs">
+      <DependentUpon>ExpAnalystics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BackOffice\ExpAnalystics.aspx.designer.cs">
+      <DependentUpon>ExpAnalystics.aspx</DependentUpon>
     </Compile>
     <Compile Include="BackOffice\ManageArea.aspx.cs">
       <DependentUpon>ManageArea.aspx</DependentUpon>
@@ -723,6 +733,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\Report\FeedbackCommentRpt.rdlc" />
+    <EmbeddedResource Include="Report\EventFeedbackCommentRpt.rdlc" />
+    <EmbeddedResource Include="Report\EventMetricElementsBarChart.rdlc" />
+    <EmbeddedResource Include="Report\EventMetricsRatingBarChart_main.rdlc" />
+    <EmbeddedResource Include="Report\EventMetricsRatingBarChart.rdlc" />
+    <EmbeddedResource Include="Report\EventOverallRatingBarChart.rdlc" />
+    <EmbeddedResource Include="Report\EventOverallRatingPieChart.rdlc" />
     <EmbeddedResource Include="Report\SmileyActionCatRating.rdlc" />
     <EmbeddedResource Include="Report\SmileyActionStfRating.rdlc" />
     <EmbeddedResource Include="Report\FeedbackCommentRpt.rdlc" />

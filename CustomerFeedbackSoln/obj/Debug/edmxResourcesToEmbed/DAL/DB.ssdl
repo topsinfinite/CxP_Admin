@@ -230,6 +230,8 @@
     <Property Name="OrganisationID" Type="int" />
     <Property Name="DateAdded" Type="datetime" />
     <Property Name="Question" Type="varchar" MaxLength="500" />
+    <Property Name="Code" Type="varchar" MaxLength="20" />
+    <Property Name="ValidTill" Type="datetime" />
   </EntityType>
   <EntityType Name="EventDevice">
     <Key>

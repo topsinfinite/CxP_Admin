@@ -53,6 +53,10 @@ namespace CustomerFeedbackSoln
 
                             if (rolname == ConfigurationManager.AppSettings["BranchOpsRole"].ToString())
                             { a = true; }
+                            if(rolname==ConfigurationManager.AppSettings["orgAdminRole"].ToString())
+                            {
+                                b=true;
+                            }
                         }
                         if (usr.HasChangePwd.HasValue && !usr.HasChangePwd.Value)
                         {
@@ -65,7 +69,11 @@ namespace CustomerFeedbackSoln
                             Response.Redirect("Default.aspx", false);
                             return;
                         }
-                        else
+                        else if (b)
+                        {
+                            Response.Redirect("BackOffice/ExpAnalystics.aspx", false);
+                            return;
+                        }else
                         {
                             Response.Redirect("BackOffice/Dashboard.aspx", false);
                             return;

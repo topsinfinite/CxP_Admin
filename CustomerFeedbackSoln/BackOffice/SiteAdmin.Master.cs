@@ -35,10 +35,11 @@ namespace CustomerFeedbackSoln.BackOffice
                     {
                         dvAdminSetup.Visible = true;
                         dvLookup.Visible = true;
+                        dvOverview.Visible = true;
                     }
                     if (HttpContext.Current.User.IsInRole(OrgAdminRole))
                     {
-                        dvLookup.Visible = true;
+                       // dvLookup.Visible = true;
                     }
                     Label lblfnm = (Label)LoginView1.FindControl("lbFName");
                     Label lblBrch = (Label)LoginView1.FindControl("lnBranch");

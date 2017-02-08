@@ -583,6 +583,8 @@
     <NavigationProperty Name="HomeSettings" Relationship="CustomerFeedBackDBModel.FK_HomeSetting_Event" FromRole="Event" ToRole="HomeSetting" />
     <NavigationProperty Name="MetricElements" Relationship="CustomerFeedBackDBModel.FK_MetricElement_Event" FromRole="Event" ToRole="MetricElement" />
     <NavigationProperty Name="EventDevices" Relationship="CustomerFeedBackDBModel.FK_EventDevice_Event" FromRole="Event" ToRole="EventDevice" />
+    <Property Type="String" Name="Code" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="ValidTill" Precision="3" />
   </EntityType>
   <EntityType Name="EventFeedback">
     <Key>

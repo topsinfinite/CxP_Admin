@@ -30,6 +30,8 @@ namespace CustomerFeedbackSoln.DAL
         public Nullable<int> OrganisationID { get; set; }
         public Nullable<System.DateTime> DateAdded { get; set; }
         public string Question { get; set; }
+        public string Code { get; set; }
+        public Nullable<System.DateTime> ValidTill { get; set; }
     
         public virtual Organisation Organisation { get; set; }
         public virtual ICollection<EventFeedback> EventFeedbacks { get; set; }

@@ -1,0 +1,5 @@
+
+Log Entry : 
+02/06/2017 14:22:22
+Error in: http://localhost:12538/BackOffice/ManageEvent.aspx. Error Message:Error: Object reference not set to an instance of an object.
+__________________________

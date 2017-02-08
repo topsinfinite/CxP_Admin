@@ -199,6 +199,8 @@
     <EntitySetMapping Name="Events">
       <EntityTypeMapping TypeName="CustomerFeedBackDBModel.Event">
         <MappingFragment StoreEntitySet="Event">
+          <ScalarProperty Name="ValidTill" ColumnName="ValidTill" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
           <ScalarProperty Name="Question" ColumnName="Question" />
           <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
           <ScalarProperty Name="OrganisationID" ColumnName="OrganisationID" />

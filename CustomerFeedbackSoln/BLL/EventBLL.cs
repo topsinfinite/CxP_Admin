@@ -349,7 +349,26 @@ namespace CustomerFeedbackSoln.BLL
                 throw ex;
             }
         }
-
+        public static bool CheckEventExist(string eventCode)
+        {
+            try
+            {
+                using (FeedBackDBEntities db = new FeedBackDBEntities())
+                {
+                    var eventNameExist = db.Events.FirstOrDefault(z => z.Code.ToUpper() == eventCode.ToUpper());
+                    if (eventNameExist != null)
+                    {
+                        return true;
+                    }
+                    else
+                        return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public static bool EventExist(string eventName)
         {
             try

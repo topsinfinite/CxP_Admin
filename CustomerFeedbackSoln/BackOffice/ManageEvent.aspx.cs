@@ -3,6 +3,7 @@ using CustomerFeedbackSoln.DAL;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -14,11 +15,13 @@ namespace CustomerFeedbackSoln.BackOffice
     {
         private string AdminRole = ConfigurationManager.AppSettings["adminRole"].ToString();
         private string OrgAdminRole = ConfigurationManager.AppSettings["orgAdminRole"].ToString();
-        private int orgId;
+        private int orgId; CultureInfo culture = new CultureInfo("en-GB");
         protected void Page_Load(object sender, EventArgs e)
         {
             try
             {
+                error.Visible = false; success.Visible = false;
+                btnSubmit.Attributes.Add("onclick", " this.disabled = true; this.value='Processing'; " + ClientScript.GetPostBackEventReference(btnSubmit, null) + ";");
                 if (!IsPostBack)
                 {
                     orgId = (int)Session["orgid"];
@@ -64,18 +67,28 @@ namespace CustomerFeedbackSoln.BackOffice
                 error.InnerHtml = "";
                 if (hid.Value == "Update")
                 {
-                    Event b = null; bool rst = false;
+                    Event b = null; bool rst = false; DateTime validdate;
                     b = EventBLL.GetEvent(Convert.ToInt32(hidkey.Value));
                     if (b != null)
                     {
                         b.Title = txtTitle.Text;
                         b.Note = txtNote.Text;
                         b.Question = txtQuestion.Text;
+                        b.Code = txtEvtCode.Text.Trim();
                         b.OrganisationID = int.Parse(ddlOrg.SelectedValue);
                         if (chk.Checked)
                             b.isActive = true;
                         else
                             b.isActive = false;
+                        if (!DateTime.TryParseExact(txtValidDate.Text, "dd/MM/yyyy", culture, DateTimeStyles.None, out validdate))
+                        {
+                            error.Visible = true;
+                            error.InnerHtml = "<a href='#' class='close' data-dismiss='alert'>&times;</a><strong>Error!</strong> Invalid date format. Acceptable formt(dd/MM/yyyy). Please try again";
+                        }
+                        else
+                        {
+                            b.ValidTill = validdate;
+                        }
                         rst = EventBLL.Update(b);
                         if (rst != false)
                         {
@@ -85,6 +98,7 @@ namespace CustomerFeedbackSoln.BackOffice
                             txtNote.Text = "";
                             txtTitle.Text = "";
                             txtQuestion.Text = "";
+                            txtValidDate.Text = "";
                             //ddlOrg.ClearSelection();
                             chk.Checked = false;
                             btnSubmit.Text = "Add";
@@ -108,16 +122,30 @@ namespace CustomerFeedbackSoln.BackOffice
                     b.Title = txtTitle.Text;
                     b.Note = txtNote.Text;
                     b.Question = txtQuestion.Text;
+                    b.Code = txtEvtCode.Text.Trim();
+
                     b.OrganisationID = int.Parse(ddlOrg.SelectedValue);
                     if (chk.Checked)
                         b.isActive = true;
                     else
                         b.isActive = false;
+                    DateTime validdate;
+
+                    if (!DateTime.TryParseExact(txtValidDate.Text, "dd/MM/yyyy", culture, DateTimeStyles.None, out validdate))
+                    {
+                        error.Visible = true;
+                        error.InnerHtml = "<a href='#' class='close' data-dismiss='alert'>&times;</a><strong>Error!</strong> Invalid date format. Acceptable formt(dd/MM/yyyy). Please try again";
+                    }
+                    else
+                    {
+                        b.ValidTill = validdate;
+                    }
+                    
                     eventExist = EventBLL.EventExist(txtTitle.Text);
                     if (eventExist)
                     {
                         error.Visible = true;
-                        error.InnerHtml = " <a href='#' class='close' data-dismiss='alert'>&times;</a><strong>Event already exists!";
+                        error.InnerHtml = " <a href='#' class='close' data-dismiss='alert'>&times;</a><strong>Event title already exists!";
                         return;
                     }
                     else
@@ -129,6 +157,7 @@ namespace CustomerFeedbackSoln.BackOffice
                             txtTitle.Text = "";
                             txtNote.Text = "";
                             txtQuestion.Text = "";
+                            txtValidDate.Text = "";
                             ddlOrg.ClearSelection();
                             chk.Checked = false;
                             success.Visible = true;
@@ -159,7 +188,9 @@ namespace CustomerFeedbackSoln.BackOffice
             try
             {
                 hid.Value = "Update";
-
+                txtEvtCode.Enabled = false;
+                btnCheck.Visible = false;
+                btnSubmit.Enabled = true;
                 btnSubmit.Text = "Update";
                 string key = gvDefault.SelectedDataKey.Value.ToString();
 
@@ -170,6 +201,8 @@ namespace CustomerFeedbackSoln.BackOffice
                     txtTitle.Text = evt.Title;
                     txtQuestion.Text = evt.Question;
                     txtNote.Text = evt.Note;
+                    txtEvtCode.Text = evt.Code;
+                    txtValidDate.Text = evt.ValidTill.HasValue ? evt.ValidTill.Value.ToString("dd/MM/yyyy") : "";
                     ddlOrg.SelectedValue = evt.OrganisationID.HasValue ? evt.OrganisationID.ToString() : "";
                     if (evt.isActive.HasValue && evt.isActive.Value)
                         chk.Checked = true;
@@ -216,6 +249,36 @@ namespace CustomerFeedbackSoln.BackOffice
         {
             ddlEventfilter.SelectedValue = "";
             BindGrid();
+        }
+
+        protected void btnCheck_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                
+                string code = txtEvtCode.Text;
+                if (!string.IsNullOrEmpty(code))
+                {
+                    if (!EventBLL.CheckEventExist(code))
+                    {
+                        success.Visible = true;
+                        success.InnerHtml = " <a href='#' class='close' data-dismiss='alert'>&times;</a><strong> Event code validated. kindly proceed";
+                        btnSubmit.Enabled = true;
+                        return;
+                    }
+                    else
+                    {
+                        error.Visible = true;
+                        error.InnerHtml = " <a href='#' class='close' data-dismiss='alert'>&times;</a><strong>Event code already exists. kindly use another code";
+                        return;
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+            }
         }
     }
 }

@@ -58,6 +58,24 @@ namespace CustomerFeedbackSoln.BackOffice {
         protected global::System.Web.UI.WebControls.LoginView LoginView1;
         
         /// <summary>
+        /// dvOverview control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dvOverview;
+        
+        /// <summary>
+        /// dvOrgAdminExp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dvOrgAdminExp;
+        
+        /// <summary>
         /// LoginStatus1 control.
         /// </summary>
         /// <remarks>
